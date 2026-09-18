@@ -7,7 +7,7 @@
 import 'dart:async' as _i4;
 
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:number_trivia/core/platform/network_info.dart' as _i6;
+import 'package:number_trivia/core/network/network_info.dart' as _i6;
 import 'package:number_trivia/features/number_trivia/data/datasources/number_trivia_local_datasource.dart'
     as _i5;
 import 'package:number_trivia/features/number_trivia/data/datasources/number_trivia_remote_datasource.dart'
@@ -115,3 +115,4 @@ class MockNetworkInfo extends _i1.Mock implements _i6.NetworkInfo {
     returnValue: _i4.Future<bool>.value(false),
   ) as _i4.Future<bool>);
 }
+
